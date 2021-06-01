@@ -40,8 +40,8 @@ C10004 | 1666.670542 | 0.636364 | 1499 | 1499 | 0 | 205.788017 | 0.083333 | 0.08
 C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 | 1200 | 678.334763 | 244.791237 | 0 | 12
 
 - Below is the definition of each features
-`CUST_ID` - Identification of Credit Card Holder
-`BALANCE` - Balance amount left in their account to make purchases
+- `CUST_ID` - Identification of Credit Card Holder
+- `BALANCE` - Balance amount left in their account to make purchases
 - `BALANCE_FREQUENCY` - How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
 - `PURCHASES` - Amount of purchases made from account 
 - `ONEOFF_PURCHASES` - Maximum purchase amount done in one-go
@@ -58,5 +58,9 @@ C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 
 - `MINIMUM_PAYMENTS` - Minimum amount of payments made by user
 - `PRC_FULL_PAYMENT` - Percent of full payment paid by user
 - `TENURE` - Tenure of credit card service for user
+
+## 4. DATA CLEANING
+- From our dataset, we got several missing value which most of them are MINIMUM_PAYMENTS
+![image](https://user-images.githubusercontent.com/78836373/120305580-1f248900-c2fb-11eb-9dfe-8a22e64e4605.png)
 
 
