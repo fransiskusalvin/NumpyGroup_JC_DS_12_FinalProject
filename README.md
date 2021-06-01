@@ -25,3 +25,4 @@ It is a tough business.
 
 ## PROCESS WORKFLOWS
 
+![image](https://user-images.githubusercontent.com/78836373/120300137-d9b18d00-c2f5-11eb-9f5c-56fe6224274f.png)
