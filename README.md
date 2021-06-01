@@ -1,8 +1,8 @@
 # NumpyGroup_JC_DS_12_FinalProject
-Team Member: 
-- Fajar Setiawan
-- Fransiskus Alvin Andriyanto
-- Panji Agdiwijaya
+Team Members: 
+- **Fajar Setiawan** (jarbling@gmail.com)
+- **Fransiskus Alvin Andriyanto** (fransiskusalvin@yahoo.com)
+- **Panji Agdiwijaya** (agdiwijaya@gmail.com)
 
 # CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
 
@@ -70,3 +70,24 @@ C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 
 - Missing Value on MINIMUM_PAYMENTS is filled with same value of PAYMENTS because the customers have PAYMENTS data recorded 
 - Missing Value on CREDIT_LIMIT is dropped because there is only 1 CREDIT_LIMIT data that has null value
 
+## 5. DATA CLUSTERING
+Based on Problems and added by research results, we utilize 3 features that might be the factors for customer segmentation:
+- BALANCE
+- PURCHASES
+- CREDIT_LIMIT
+
+Source :
+- https://creditcards.chase.com/
+- https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/Financial%20Services/Latest%20thinking/Payments/MoP19_New%20frontiers%20in%20credit%20card%20segmentation.ashx 
+
+- For clustering we use three algorithm (KMeans, AHC, and Gaussian Mixture)
+- Below is our Silhouette Score comparison for each algorithm and each number segment
+![image](https://user-images.githubusercontent.com/78836373/120307310-07e69b00-c2fd-11eb-93fd-353f5520b6a4.png)
+- From the Silhouette Score using three different methods (KMeans, AHC, Gaussian Mixsture), the best number of clusters obtained is 2.
+- Nevertheless, we choose to use 3 clustering due to business demand and simulation.
+- Within 3 clustering, AHC method has better Silhouette Score (0.52) compared to KMeans (0.48). However, we choose KMeans method because has better seperation of grouping 
+
+Below is our clustering result using K-Means
+![image](https://user-images.githubusercontent.com/78836373/120307620-6449ba80-c2fd-11eb-988c-320f4e0d3370.png)
+![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
+![image](https://user-images.githubusercontent.com/78836373/120307667-73c90380-c2fd-11eb-866a-3a744e126aa7.png)
