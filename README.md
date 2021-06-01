@@ -1,4 +1,8 @@
 # NumpyGroup_JC_DS_12_FinalProject
+Team Member: 
+- Fajar Setiawan
+- Fransiskus Alvin Andriyanto
+- Panji Agdiwijaya
 
 # CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
 
