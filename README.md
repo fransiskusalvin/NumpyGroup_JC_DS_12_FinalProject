@@ -30,7 +30,8 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 
 - Our data set is taken from Kaggle: https://www.kaggle.com/arjunbhasin2013/ccdata
 - Below is the small part of our dataset which consist of 18 Features and 8950 data
-![image](https://user-images.githubusercontent.com/78836373/120303536-20ed4d00-c2f9-11eb-8ea2-b94df452bc7a.png)
+CUST_ID|BALANCE|BALANCE_FREQUENCY|PURCHASES|ONEOFF_PURCHASES|INSTALLMENTS_PURCHASES|CASH_ADVANCE|PURCHASES_FREQUENCY|ONEOFF_PURCHASES_FREQUENCY|PURCHASES_INSTALLMENTS_FREQUENCY|CASH_ADVANCE_FREQUENCY|CASH_ADVANCE_TRX|PURCHASES_TRX|CREDIT_LIMIT|PAYMENTS|MINIMUM_PAYMENTS|PRC_FULL_PAYMENT|TENURE
+
 
 
 COLUMNS DESCRIPTION
