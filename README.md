@@ -26,4 +26,32 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 - Define product details based on clustering results to ensure that customers get the proper product
 - Help Marketing Team to define new Customers type through Machine Learning Modelling 
 
+## 3. DATA EXTRACTION, DATA LOAD, AND DATA UNDERSTANDING
+
+- Our data set is taken from Kaggle: https://www.kaggle.com/arjunbhasin2013/ccdata
+- Below is the small part of our dataset which consist of 18 Features and 8950 data
+![image](https://user-images.githubusercontent.com/78836373/120303536-20ed4d00-c2f9-11eb-8ea2-b94df452bc7a.png)
+
+
+COLUMNS DESCRIPTION
+
+- `CUST_ID` - Identification of Credit Card Holder
+- `BALANCE` - Balance amount left in their account to make purchases
+- `BALANCE_FREQUENCY` - How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
+- `PURCHASES` - Amount of purchases made from account 
+- `ONEOFF_PURCHASES` - Maximum purchase amount done in one-go
+- `INSTALLMENTS_PURCHASES` - Amount of purchase done in installment
+- `CASH_ADVANCE` - Amount of Cash Money user take from credit card
+- `PURCHASES_FREQUENCY` - How frequent the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
+- `ONEOFF_PURCHASES_FREQUENCY` - How frequent Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
+- `PURCHASES_INSTALLMENTS_FREQUENCY` - How frequent purchases in installments are being done (1 = frequently done, 0 = not frequently done)
+- `CASH_ADVANCE_FREQUENCY` - How frequent user take money from credit card
+- `CASH_ADVANCE_TRX` - Number of Transactions made with "Cash in Advanced" 
+- `PURCHASES_TRX ` - Number of purchase transactions made 
+- `CREDIT_LIMIT` - Limit of Credit Card for user
+- `PAYMENTS` - Amount of Payment done by user
+- `MINIMUM_PAYMENTS` - Minimum amount of payments made by user
+- `PRC_FULL_PAYMENT` - Percent of full payment paid by user
+- `TENURE` - Tenure of credit card service for user
+
 
