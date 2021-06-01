@@ -91,3 +91,60 @@ Below is our clustering result using K-Means
 ![image](https://user-images.githubusercontent.com/78836373/120307620-6449ba80-c2fd-11eb-988c-320f4e0d3370.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307667-73c90380-c2fd-11eb-866a-3a744e126aa7.png)
+
+## 6. EXPLORATORY DATA ANALYSIS
+
+For EDA we do the following steps below:
+- Binning
+- Aggregating Columns
+- Visualization
+- Insight & Conclusion
+
+SUMMARY EDA:
+- BALANCE has low impact to SEGMENT
+- PURCHASES has low impact to SEGMENT
+- ONEOFF_PURCHASES has low impact to SEGMENT
+- INSTALLMENT PURCHASES has low impact to SEGMENT
+- CASH ADVANCE PURCHASES has low impact to SEGMENT
+- CREDIT LIMIT has significant impact to SEGMENT
+- PAYMENTS has low impact to SEGMENT
+- MINIMUM PAYMENTS has low impact to SEGMENT
+- Customer SEGMENTATION influenced by many Features
+
+RECOMMENDATION EDA:
+- Based on our analysis, we recommend to use all features for Machine Learning
+
+## 7. MACHINE LEARNING MODELLING
+
+Dataset is Multiclass where:
+
+- SEGMENT 0: LOW CUSTOMERS      
+- SEGMENT 1: MEDIUM CUSTOMERS       
+- SEGMENT 2: HIGH CUSTOMERS    
+![image](https://user-images.githubusercontent.com/78836373/120308724-9ad40500-c2fe-11eb-9dae-a923c2e2c64b.png)
+
+We focus to get model with the best Accuracy score
+
+- For this model we will use all features, because from EDA all features has affect to Credit Card Default
+
+For Machine Learning modelling we utilize all data features and utilize 3 different algorithm (Random Forest, Logistic Regression, and KNN Classifier)
+
+Below we provided table to compare accuracy score based on our choosen algorithm
+![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
+
+- Random Forest result accuracy is already good, in other hand, this model is categorized as strong learner model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a good learner and get more suitable confusion matrix
+
+MACHINE LEARNING SUMMARY:
+- From the initial machine learning modelling, there are no overfit result on all over model algorithm
+- We suggest to use Random Forest Tuned 2, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
+- How this model will help bank company?
+    - This model will allow bank marketing team to take actions on identified as "customer segment", furthermore the development of these model should contribute to bank revenue management.
+    - These prediction models enable marekting teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
+
+MACHINE LEARNING RECOMMENDATION:
+- Offer suitable product for new customers based on their segmentation which is predict through Machine Learning Model
+
+FURTHER RESEARCH (NEXT ACTION):
+- For further research information, customer behaviour (Payment history, Length of credit history, New credit, The variety of credit products you have, including credit cards, installment loans, finance company accounts, mortgage loans and so on) could be included into the dataset in hope to improve the models and measure the importance of these features
+
+
