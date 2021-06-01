@@ -17,4 +17,11 @@ It is a tough business.
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
 - In other hand, the company doesn't know which customer belongs to which products
 
+## GOALS
+- Understanding Customer Type and Customer Behaviour through Customer Data Clustering
+- Define Product Details from Research Results
+- Classify Customer Segmentation Results with the product 
+- Help Marketing Team to define new Customers type through Machine Learning Modelling 
+
+## PROCESS WORKFLOWS
 
