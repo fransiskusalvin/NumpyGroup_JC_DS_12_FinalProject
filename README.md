@@ -63,4 +63,6 @@ C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 
 - From our dataset, we got several missing value which most of them are MINIMUM_PAYMENTS
 ![image](https://user-images.githubusercontent.com/78836373/120305580-1f248900-c2fb-11eb-9dfe-8a22e64e4605.png)
 
+- Missing Value on MINIMUM_PAYMENTS is filled with same value of PAYMENTS because the customers have PAYMENTS data recorded 
+- Missing Value on CREDIT_LIMIT is dropped because there is only 1 CREDIT_LIMIT data that has null value
 
