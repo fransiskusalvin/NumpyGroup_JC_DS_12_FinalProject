@@ -3,6 +3,13 @@
 # CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
 
 ## BACKGROUND
+xxxx
+
+## PROCESS WORKFLOWS
+
+![image](https://user-images.githubusercontent.com/78836373/120300137-d9b18d00-c2f5-11eb-9f5c-56fe6224274f.png)
+
+## BUSINESS PROBLEMS
 - Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customer stays around for a while.\
 It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if she keeps the card**.\
 If she **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate her**.\
@@ -17,12 +24,10 @@ It is a tough business.
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
 - In other hand, the company doesn't know which customer belongs to which products
 
-## GOALS
+## GOALS SETTINGS
 - Understanding Customer Type and Customer Behaviour through Customer Data Clustering
 - Define Product Details from Research Results
 - Classify Customer Segmentation Results with the product 
 - Help Marketing Team to define new Customers type through Machine Learning Modelling 
 
-## PROCESS WORKFLOWS
 
-![image](https://user-images.githubusercontent.com/78836373/120300137-d9b18d00-c2f5-11eb-9f5c-56fe6224274f.png)
