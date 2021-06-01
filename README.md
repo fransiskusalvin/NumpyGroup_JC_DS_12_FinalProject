@@ -100,7 +100,7 @@ For EDA we do the following steps below:
 - Visualization
 - Insight & Conclusion
 
-SUMMARY EDA:
+**EDA SUMMARY:**
 - BALANCE has low impact to SEGMENT
 - PURCHASES has low impact to SEGMENT
 - ONEOFF_PURCHASES has low impact to SEGMENT
@@ -111,7 +111,7 @@ SUMMARY EDA:
 - MINIMUM PAYMENTS has low impact to SEGMENT
 - Customer SEGMENTATION influenced by many Features
 
-RECOMMENDATION EDA:
+**EDA RECOMMENDATION:**
 - Based on our analysis, we recommend to use all features for Machine Learning
 
 ## 7. MACHINE LEARNING MODELLING
@@ -130,21 +130,22 @@ We focus to get model with the best Accuracy score
 For Machine Learning modelling we utilize all data features and utilize 3 different algorithm (Random Forest, Logistic Regression, and KNN Classifier)
 
 Below we provided table to compare accuracy score based on our choosen algorithm
+
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
 
 - Random Forest result accuracy is already good, in other hand, this model is categorized as strong learner model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a good learner and get more suitable confusion matrix
 
-MACHINE LEARNING SUMMARY:
+**MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are no overfit result on all over model algorithm
 - We suggest to use Random Forest Tuned 2, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
 - How this model will help bank company?
     - This model will allow bank marketing team to take actions on identified as "customer segment", furthermore the development of these model should contribute to bank revenue management.
     - These prediction models enable marekting teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
 
-MACHINE LEARNING RECOMMENDATION:
+**MACHINE LEARNING RECOMMENDATION**:
 - Offer suitable product for new customers based on their segmentation which is predict through Machine Learning Model
 
-FURTHER RESEARCH (NEXT ACTION):
+**FURTHER RESEARCH (NEXT ACTION)**:
 - For further research information, customer behaviour (Payment history, Length of credit history, New credit, The variety of credit products you have, including credit cards, installment loans, finance company accounts, mortgage loans and so on) could be included into the dataset in hope to improve the models and measure the importance of these features
 
 
