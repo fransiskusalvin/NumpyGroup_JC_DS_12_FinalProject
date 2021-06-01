@@ -30,15 +30,11 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 
 - Our data set is taken from Kaggle: https://www.kaggle.com/arjunbhasin2013/ccdata
 - Below is the small part of our dataset which consist of 18 Features and 8950 data
+
 CUST_ID | BALANCE | BALANCE_FREQUENCY | PURCHASES | ONEOFF_PURCHASES | INSTALLMENTS_PURCHASES | CASH_ADVANCE | PURCHASES_FREQUENCY | ONEOFF_PURCHASES_FREQUENCY | PURCHASES_INSTALLMENTS_FREQUENCY | CASH_ADVANCE_FREQUENCY | CASH_ADVANCE_TRX | PURCHASES_TRX | CREDIT_LIMIT | PAYMENTS | MINIMUM_PAYMENTS | PRC_FULL_PAYMENT | TENURE
 -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
 C10001 | 40.900749 | 0.818182 | 95.4 | 0 | 95.4 | 0 | 0.166667 | 0 | 0.083333 | 0 | 0 | 2 | 1000 | 201.802084 | 139.509787 | 0 | 12
 
-
-
-Joni | 20 | Bandung
-Desi | 23 | Jakarta
-Doni | 24 | Depok
 
 
 COLUMNS DESCRIPTION
