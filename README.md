@@ -215,9 +215,19 @@ We Suggest:
 
 ## BUSINESS IMPACT
 
-From our [research](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/)
+From our [research](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/), current credit card churn is about 25%.
+With the help of our Clustering and Multiclass Machine Learning Modeling, we simulate that credit card churn will drop into 7%.
+
+Assuming number of customers and lost per customers as down below:
+
+![image](https://user-images.githubusercontent.com/78836373/120530327-96dfda00-c407-11eb-9c26-c6d8b7a32664.png)
+
+Attached below rough calculation Lost Customer Cost Without Machine Learning vs Lost Customer Cost with Machine Learning
 
 ![image](https://user-images.githubusercontent.com/78836373/120474772-cc1e0500-c3d2-11eb-9aec-b115f0cb2cd8.png)
+
+Using our Multiclass Machine Learning Modelling, our company could save money arround **14,400,000 dollars!!**
+
 ![image](https://user-images.githubusercontent.com/78836373/120474804-d6400380-c3d2-11eb-83de-177e78c84353.png)
 
 ## FURTHER RESEARCH (NEXT ACTION)
