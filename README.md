@@ -87,6 +87,7 @@ Source :
 - Below is our Silhouette Score comparison for each algorithm and each number segment
 
 ![image](https://user-images.githubusercontent.com/78836373/120307310-07e69b00-c2fd-11eb-93fd-353f5520b6a4.png)
+
 - From the Silhouette Score using three different methods (KMeans, AHC, Gaussian Mixsture), the best number of clusters obtained is 2.
 - Nevertheless, we choose to use 3 clustering due to business demand and simulation.
 - Within 3 clustering, AHC method has better Silhouette Score (0.52) compared to KMeans (0.48). However, we choose KMeans method because has better seperation of grouping 
