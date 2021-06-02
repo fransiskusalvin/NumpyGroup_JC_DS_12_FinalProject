@@ -29,7 +29,7 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 ## 2. GOALS SETTINGS
 - Understanding **Customers Type** and **Customer Behaviour** through **Customer Data Clustering**
 - Define product details based on clustering results to ensure that customers get the proper product
-- Help Marketing Team to define new Customers Type through Machine Learning Modelling 
+- Help Marketing Team to define new Customers Type through Multiclass Clasification Machine Learning Technique 
 
 ## 3. DATA EXTRACTION, DATA LOAD, AND DATA UNDERSTANDING
 
