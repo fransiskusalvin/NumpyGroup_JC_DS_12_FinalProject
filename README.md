@@ -114,7 +114,7 @@ For EDA we do the following steps below:
 - Visualization
 - Insight & Conclusion
 
-**Business Questions** 
+**BUSINESS QUESTIONS** 
 - What features which have impact to SEGMENT?
 
 **EDA SUMMARY:**
@@ -158,18 +158,17 @@ For EDA we do the following steps below:
 ## 7. MACHINE LEARNING MODELLING
 
 Dataset is Multiclass where:
-
 - SEGMENT 0: LOW CUSTOMERS      
 - SEGMENT 1: MEDIUM CUSTOMERS       
-- SEGMENT 2: HIGH CUSTOMERS    
+- SEGMENT 2: HIGH CUSTOMERS 
+  
 ![image](https://user-images.githubusercontent.com/78836373/120308724-9ad40500-c2fe-11eb-9dae-a923c2e2c64b.png)
 
 We focus to get model with the best Accuracy score
 
 - For this model we will use all features, because from EDA all features has affect to Credit Card Default
 
-For Machine Learning modelling we utilize all data features and utilize 3 different algorithm (Random Forest, Logistic Regression, and KNN Classifier)
-
+For Machine Learning modelling we utilize all data features and utilize 3 different algorithm (Random Forest, Logistic Regression, and KNN Classifier).
 Below we provided table to compare accuracy score based on our choosen algorithm
 
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
