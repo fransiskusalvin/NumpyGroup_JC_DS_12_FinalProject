@@ -100,6 +100,9 @@ For EDA we do the following steps below:
 - Visualization
 - Insight & Conclusion
 
+**Business Questions** 
+- What features which have impact to SEGMENT?
+
 **EDA SUMMARY:**
 - BALANCE has low impact to SEGMENT
 - PURCHASES has low impact to SEGMENT
