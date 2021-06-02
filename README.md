@@ -65,6 +65,7 @@ C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 
 
 ## 4. DATA CLEANING
 - From our dataset, we got several missing value which most of them are MINIMUM_PAYMENTS
+
 ![image](https://user-images.githubusercontent.com/78836373/120305580-1f248900-c2fb-11eb-9dfe-8a22e64e4605.png)
 
 - Missing Value on MINIMUM_PAYMENTS is filled with 0 assuming the customers haven't made any PAYMENTS (PAYMENTS = 0)
@@ -83,12 +84,14 @@ Source :
 
 - For clustering we use three algorithm (KMeans, AHC, and Gaussian Mixture)
 - Below is our Silhouette Score comparison for each algorithm and each number segment
+
 ![image](https://user-images.githubusercontent.com/78836373/120307310-07e69b00-c2fd-11eb-93fd-353f5520b6a4.png)
 - From the Silhouette Score using three different methods (KMeans, AHC, Gaussian Mixsture), the best number of clusters obtained is 2.
 - Nevertheless, we choose to use 3 clustering due to business demand and simulation.
 - Within 3 clustering, AHC method has better Silhouette Score (0.52) compared to KMeans (0.48). However, we choose KMeans method because has better seperation of grouping 
 
 Below is our clustering result using K-Means
+
 ![image](https://user-images.githubusercontent.com/78836373/120307620-6449ba80-c2fd-11eb-988c-320f4e0d3370.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307667-73c90380-c2fd-11eb-866a-3a744e126aa7.png)
@@ -116,27 +119,35 @@ For EDA we do the following steps below:
 
 **EDA SUMMARY:**
 - BALANCE has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120447971-4b044500-c3b5-11eb-8619-54da4177e6cb.png)
 
 - PURCHASES has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448059-60796f00-c3b5-11eb-8b4f-091f4992655c.png)
 
 - ONEOFF_PURCHASES has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448156-7a1ab680-c3b5-11eb-809a-d553261ba84d.png)
 
 - INSTALLMENT PURCHASES has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448210-8acb2c80-c3b5-11eb-82c3-a385c055485c.png)
 
 - CASH ADVANCE PURCHASES has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448285-9dddfc80-c3b5-11eb-8e92-33c6420cc96a.png)
 
 - CREDIT LIMIT has significant impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448353-b1896300-c3b5-11eb-8fb2-e06c45f0451a.png)
 
 - PAYMENTS has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448859-29f02400-c3b6-11eb-85b3-519573d29a3f.png)
 
 - MINIMUM PAYMENTS has low impact to SEGMENT
+
 ![image](https://user-images.githubusercontent.com/78836373/120448900-35434f80-c3b6-11eb-82cb-0e35153d21ff.png)
 
 - Customer SEGMENTATION influenced by many Features
@@ -163,7 +174,7 @@ Below we provided table to compare accuracy score based on our choosen algorithm
 
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
 
-- Random Forest result accuracy is already good, in other hand, this model is categorized as strong learner model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a good learner and get more suitable confusion matrix
+- Random Forest result accuracy is already good, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are no overfit result on all over model algorithm
@@ -173,9 +184,31 @@ Below we provided table to compare accuracy score based on our choosen algorithm
     - These prediction models enable marekting teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
 
 **MACHINE LEARNING RECOMMENDATION**:
-- Offer suitable product for new customers based on their segmentation which is predict through Machine Learning Model
+- This Machine Learning could be used for customer segmentation based on their credit card usage behaviour.
+- The result from this project could be used by marketing team to offer suitable product for new customers based on their segmentation which is predict through Machine Learning Model
 
-**FURTHER RESEARCH (NEXT ACTION)**:
+## PROJECT RECOMENDATION 
+DETAIL PRODUCT SUGGESTION:
+
+- PERFORMANCE CREDIT CARD DETAIL PRODUCT:
+    - GET REWARDS with Monthly Minimum Purchases 500 dollars
+    - CREDIT_LIMIT: 5000
+
+- BUSINESS CASH CREDIT CARD DETAIL PRODUCT:
+    - GET REWARDS with Monthly Minimum Purchases 1200 dollars
+    - CREDIT_LIMIT: 13000
+    
+- BUSINESS UNLIMITED CREDIT CARD DETAIL PRODUCT:
+    - GET REWARDS with Monthly Minimum Purchases 3500 dollars
+    - CREDIT_LIMIT: 30000
+    
+We Suggest:
+- Offer LOW CUSTOMERS SEGMENT with PERFORMANCE CREDIT CARD
+- Offer MEDIUM CUSTOMERS SEGMENT with BUSINESS CASH CREDIT CARD
+- Offer HIGH CUSTOMERS SEGMENT with BUSINESS UNLIMITED CREDIT CARD
+
+## BUSINESS IMPACT
+    
+
+## FURTHER RESEARCH (NEXT ACTION)
 - For further research information, customer behaviour (Payment history, Length of credit history, New credit, The variety of credit products you have, including credit cards, installment loans, finance company accounts, mortgage loans and so on) could be included into the dataset in hope to improve the models and measure the importance of these features
-
-
