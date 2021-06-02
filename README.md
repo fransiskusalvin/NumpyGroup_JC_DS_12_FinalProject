@@ -7,7 +7,7 @@ Team Members:
 # CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
 
 ## BACKGROUND
-Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customers stays around for a while. It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if she keeps the card**. If customers **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate her**. It is a tough business.
+Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customers stays around for a while. It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if the customers keeps the card**. If customers **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate them**.
  
 Source: https://www.dbmarketing.com/articles/Art175.htm
 
@@ -67,6 +67,7 @@ C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 
 - From our dataset, we got several missing value which most of them are MINIMUM_PAYMENTS
 ![image](https://user-images.githubusercontent.com/78836373/120305580-1f248900-c2fb-11eb-9dfe-8a22e64e4605.png)
 
+- Missing Value on MINIMUM_PAYMENTS is filled with 0 assuming the customers haven't made any PAYMENTS (PAYMENTS = 0)
 - Missing Value on MINIMUM_PAYMENTS is filled with same value of PAYMENTS because the customers have PAYMENTS data recorded 
 - Missing Value on CREDIT_LIMIT is dropped because there is only 1 CREDIT_LIMIT data that has null value
 
@@ -92,6 +93,16 @@ Below is our clustering result using K-Means
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307667-73c90380-c2fd-11eb-866a-3a744e126aa7.png)
 
+![](VID-20210602-WA0000_1_1_3.gif)
+
+From Insight Above we can conclude:
+* **SEGMENT 0 : LOW CUSTOMERS** This customer group indicates a large group of customers who have LOW BALANCES, small spenders (LOW PURCHASES) with the LOWEST CREDIT LIMIT. 
+
+* **SEGMENT 1 : MEDIUM CUSTOMERS** This customer group indicates a small group of customers who have LOW-MEDIUM BALANCES, intermediate spenders (LOW-MEDIUM PURCHASES) with intermediate CREDIT LIMIT.
+
+* **SEGMENT 2 : HIGH CUSTOMERS** This customer group indicates a small group of customers who have LOW-HIGH BALANCES, high spenders (LOW-HIGH PURCHASES) with HIGH CREDIT LIMIT.
+
+
 ## 6. EXPLORATORY DATA ANALYSIS
 
 For EDA we do the following steps below:
@@ -105,13 +116,29 @@ For EDA we do the following steps below:
 
 **EDA SUMMARY:**
 - BALANCE has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120447971-4b044500-c3b5-11eb-8619-54da4177e6cb.png)
+
 - PURCHASES has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448059-60796f00-c3b5-11eb-8b4f-091f4992655c.png)
+
 - ONEOFF_PURCHASES has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448156-7a1ab680-c3b5-11eb-809a-d553261ba84d.png)
+
 - INSTALLMENT PURCHASES has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448210-8acb2c80-c3b5-11eb-82c3-a385c055485c.png)
+
 - CASH ADVANCE PURCHASES has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448285-9dddfc80-c3b5-11eb-8e92-33c6420cc96a.png)
+
 - CREDIT LIMIT has significant impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448353-b1896300-c3b5-11eb-8fb2-e06c45f0451a.png)
+
 - PAYMENTS has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448859-29f02400-c3b6-11eb-85b3-519573d29a3f.png)
+
 - MINIMUM PAYMENTS has low impact to SEGMENT
+![image](https://user-images.githubusercontent.com/78836373/120448900-35434f80-c3b6-11eb-82cb-0e35153d21ff.png)
+
 - Customer SEGMENTATION influenced by many Features
 
 **EDA RECOMMENDATION:**
