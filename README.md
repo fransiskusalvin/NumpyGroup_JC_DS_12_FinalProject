@@ -174,7 +174,7 @@ We focus to obtain Machine Learning Model with the best Accuracy score
 
 For Machine Learning modelling we utilize all data features and utilize 3 different algorithm
 1. Random Forest
-2. Logistic Regressio
+2. Logistic Regression
 3. KNN Classifier
 Below we provided table to compare accuracy score based on our choosen algorithm
 
