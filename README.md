@@ -34,7 +34,7 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 ## 3. DATA EXTRACTION, DATA LOAD, AND DATA UNDERSTANDING
 
 - Our data set is taken from Kaggle: https://www.kaggle.com/arjunbhasin2013/ccdata
-- Below is the small part of our dataset which consists of 18 Features and 8950 data
+- Below is the small part of our dataset which consists of **18 Features** and **8950 data**
 
 CUST_ID | BALANCE | BALANCE_FREQUENCY | PURCHASES | ONEOFF_PURCHASES | INSTALLMENTS_PURCHASES | CASH_ADVANCE | PURCHASES_FREQUENCY | ONEOFF_PURCHASES_FREQUENCY | PURCHASES_INSTALLMENTS_FREQUENCY | CASH_ADVANCE_FREQUENCY | CASH_ADVANCE_TRX | PURCHASES_TRX | CREDIT_LIMIT | PAYMENTS | MINIMUM_PAYMENTS | PRC_FULL_PAYMENT | TENURE
 -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
