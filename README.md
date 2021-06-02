@@ -86,15 +86,15 @@ Source :
 - https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/Financial%20Services/Latest%20thinking/Payments/MoP19_New%20frontiers%20in%20credit%20card%20segmentation.ashx 
 
 - For clustering we use three algorithm (KMeans, AHC, and Gaussian Mixture)
-- Below is our Silhouette Score comparison for each algorithm and each number segment
+- Below is our **Silhouette Score** comparison for each algorithm and each number segment:
 
 ![image](https://user-images.githubusercontent.com/78836373/120307310-07e69b00-c2fd-11eb-93fd-353f5520b6a4.png)
 
 - From the Silhouette Score using three different methods (KMeans, AHC, Gaussian Mixsture), the best number of clusters obtained is 2.
-- Nevertheless, we choose to use 3 clustering due to business demand and simulation.
-- Within 3 clustering, AHC method has better Silhouette Score (0.52) compared to KMeans (0.48). However, we choose KMeans method because has better seperation of grouping 
+- Nevertheless, we choose to use **3 clustering** due to **Business Demand and Simulation**.
+- Within 3 clustering, AHC method has better Silhouette Score (0.52) compared to KMeans (0.48). However, we choose **KMeans** method because has **better seperation of grouping** 
 
-Below is our clustering result using K-Means
+Below is our **Clustering Visualization** Result using K-Means:
 
 ![image](https://user-images.githubusercontent.com/78836373/120307620-6449ba80-c2fd-11eb-988c-320f4e0d3370.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
@@ -122,35 +122,35 @@ For EDA we do the following steps below:
 - What features which have impact to SEGMENT?
 
 **EDA SUMMARY:**
-- BALANCE has low impact to SEGMENT
+- **BALANCE** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120447971-4b044500-c3b5-11eb-8619-54da4177e6cb.png)
 
-- PURCHASES has low impact to SEGMENT
+- **PURCHASES** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448059-60796f00-c3b5-11eb-8b4f-091f4992655c.png)
 
-- ONEOFF_PURCHASES has low impact to SEGMENT
+- **ONEOFF_PURCHASES** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448156-7a1ab680-c3b5-11eb-809a-d553261ba84d.png)
 
-- INSTALLMENT PURCHASES has low impact to SEGMENT
+- **INSTALLMENT_PURCHASES** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448210-8acb2c80-c3b5-11eb-82c3-a385c055485c.png)
 
-- CASH ADVANCE PURCHASES has low impact to SEGMENT
+- **CASH_ADVANCE_PURCHASES** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448285-9dddfc80-c3b5-11eb-8e92-33c6420cc96a.png)
 
-- CREDIT LIMIT has significant impact to SEGMENT
+- **CREDIT_LIMIT** has significant impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448353-b1896300-c3b5-11eb-8fb2-e06c45f0451a.png)
 
-- PAYMENTS has low impact to SEGMENT
+- **PAYMENTS** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448859-29f02400-c3b6-11eb-85b3-519573d29a3f.png)
 
-- MINIMUM PAYMENTS has low impact to SEGMENT
+- **MINIMUM_PAYMENTS** has low impact to SEGMENT
 
 ![image](https://user-images.githubusercontent.com/78836373/120448900-35434f80-c3b6-11eb-82cb-0e35153d21ff.png)
 
@@ -161,23 +161,26 @@ For EDA we do the following steps below:
 
 ## 7. MACHINE LEARNING MODELLING
 
-Dataset is Multiclass where:
+Since our dataset have 3 SEGMENT **Multiclass** where:
 - SEGMENT 0: LOW CUSTOMERS      
 - SEGMENT 1: MEDIUM CUSTOMERS       
 - SEGMENT 2: HIGH CUSTOMERS 
   
 ![image](https://user-images.githubusercontent.com/78836373/120308724-9ad40500-c2fe-11eb-9dae-a923c2e2c64b.png)
 
-We focus to get model with the best Accuracy score
+We focus to obtain Machine Learning Model with the best Accuracy score
 
 - For this model we will use all features, because from EDA all features has affect to Credit Card Default
 
-For Machine Learning modelling we utilize all data features and utilize 3 different algorithm (Random Forest, Logistic Regression, and KNN Classifier).
+For Machine Learning modelling we utilize all data features and utilize 3 different algorithm
+1. Random Forest
+2. Logistic Regressio
+3. KNN Classifier
 Below we provided table to compare accuracy score based on our choosen algorithm
 
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
 
-- Random Forest result accuracy is already good, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix
+- **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are no overfit result on all over model algorithm
