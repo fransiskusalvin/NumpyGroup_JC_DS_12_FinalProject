@@ -208,7 +208,9 @@ We Suggest:
 - Offer HIGH CUSTOMERS SEGMENT with BUSINESS UNLIMITED CREDIT CARD
 
 ## BUSINESS IMPACT
-    
+![image](https://user-images.githubusercontent.com/78836373/120474772-cc1e0500-c3d2-11eb-9aec-b115f0cb2cd8.png)
+![image](https://user-images.githubusercontent.com/78836373/120474804-d6400380-c3d2-11eb-83de-177e78c84353.png)
+
 
 ## FURTHER RESEARCH (NEXT ACTION)
 - For further research information, customer behaviour (Payment history, Length of credit history, New credit, The variety of credit products you have, including credit cards, installment loans, finance company accounts, mortgage loans and so on) could be included into the dataset in hope to improve the models and measure the importance of these features
