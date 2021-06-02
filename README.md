@@ -222,7 +222,7 @@ Assuming number of customers and lost per customers as down below:
 
 ![image](https://user-images.githubusercontent.com/78836373/120530327-96dfda00-c407-11eb-9c26-c6d8b7a32664.png)
 
-Attached below rough calculation Lost Customer Cost Without Machine Learning vs Lost Customer Cost with Machine Learning
+Attached below is rough calculation Lost Customer Cost Without Machine Learning vs Lost Customer Cost with Machine Learning
 
 ![image](https://user-images.githubusercontent.com/78836373/120474772-cc1e0500-c3d2-11eb-9aec-b115f0cb2cd8.png)
 
