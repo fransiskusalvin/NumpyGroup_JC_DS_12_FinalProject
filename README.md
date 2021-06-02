@@ -21,15 +21,15 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
     - Source: https://www.dbmarketing.com/articles/Art175.htm
 - The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones**
     - Source : https://www.fpsc.com/the_cost_of_customer_churn.pdf
-- In order to retain customers, we must first understanding our customers type and customer behaviour
+- In order to retain customers, we must first understanding our **Customers Type and Customers Behaviour**
 - Previously, our bank only has 1 product of credit card, resulting low customer loyalty because inaccurate marketing program
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
 - In other hand, the company doesn't know which customers belongs to which products
 
 ## 2. GOALS SETTINGS
 - Understanding **Customers Type** and **Customer Behaviour** through **Customer Data Clustering**
-- Define product details based on clustering results to ensure that customers get the proper product
-- Help Marketing Team to define new Customers Type through Multiclass Clasification Machine Learning Technique 
+- **Define product details** based on **Clustering Results** to ensure that customers get the proper product
+- **Help Marketing Team** to define new Customers Type through **Multiclass Clasification Machine Learning Technique**
 
 ## 3. DATA EXTRACTION, DATA LOAD, AND DATA UNDERSTANDING
 
