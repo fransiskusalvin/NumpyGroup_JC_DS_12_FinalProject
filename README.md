@@ -161,62 +161,64 @@ For EDA we do the following steps below:
 
 ## 7. MACHINE LEARNING MODELLING
 
-Since our dataset have 3 SEGMENT **Multiclass** where:
-- SEGMENT 0: LOW CUSTOMERS      
-- SEGMENT 1: MEDIUM CUSTOMERS       
-- SEGMENT 2: HIGH CUSTOMERS 
+Since our dataset have 3 SEGMENT/**Multiclass** where:
+- **SEGMENT 0**: LOW CUSTOMERS      
+- **SEGMENT 1**: MEDIUM CUSTOMERS       
+- **SEGMENT 2**: HIGH CUSTOMERS 
   
+With **SEGMENT Composition** down below:
 ![image](https://user-images.githubusercontent.com/78836373/120308724-9ad40500-c2fe-11eb-9dae-a923c2e2c64b.png)
 
-We focus to obtain Machine Learning Model with the best Accuracy score
+We **focus** to obtain Machine Learning Model with the best **Accuracy Score**
 
 - For this model we will use all features, because from EDA all features has affect to Credit Card Default
 
 For Machine Learning modelling we utilize all data features and utilize 3 different algorithm
-1. Random Forest
-2. Logistic Regression
-3. KNN Classifier
-Below we provided table to compare accuracy score based on our choosen algorithm
+1. **Random Forest**
+2. **Logistic Regression**
+3. **KNN Classifier**
+
+Below we provided table to **Compare Accuracy Score** based on our choosen algorithm
 
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
 
 - **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix
 
 **MACHINE LEARNING SUMMARY**:
-- From the initial machine learning modelling, there are no overfit result on all over model algorithm
-- We suggest to use Random Forest Tuned 2, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
+- From the initial machine learning modelling, there are **no overfit result** on all over model algorithm
+- We **suggest** to use **Random Forest Tuned 2**, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
 - How this model will help bank company?
     - This model will allow bank marketing team to take actions on identified as "customer segment", furthermore the development of these model should contribute to bank revenue management.
     - These prediction models enable marekting teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
 
 **MACHINE LEARNING RECOMMENDATION**:
-- This Machine Learning could be used for customer segmentation based on their credit card usage behaviour.
-- The result from this project could be used by marketing team to offer suitable product for new customers based on their segmentation which is predict through Machine Learning Model
+- This Machine Learning could be used for **customer segmentation based on their credit card usage behaviour**.
+- The result from this project could be used by **marketing team** to offer suitable product for new customers based on their segmentation which is predict through Machine Learning Model
 
 ## PROJECT RECOMENDATION 
 DETAIL PRODUCT SUGGESTION:
 
-- PERFORMANCE CREDIT CARD DETAIL PRODUCT:
-    - GET REWARDS with Monthly Minimum Purchases 500 dollars
-    - CREDIT_LIMIT: 5000
+- **PERFORMANCE CREDIT CARD** DETAIL PRODUCT:
+    - GET REWARDS with Monthly **Minimum Purchases 500 dollars**
+    - **CREDIT_LIMIT: 5000 dollars**
 
-- BUSINESS CASH CREDIT CARD DETAIL PRODUCT:
-    - GET REWARDS with Monthly Minimum Purchases 1200 dollars
-    - CREDIT_LIMIT: 13000
+- **BUSINESS CASH CREDIT CARD** DETAIL PRODUCT:
+    - GET REWARDS with Monthly **Minimum Purchases 1200 dollars**
+    - **CREDIT_LIMIT: 13000 dollars**
     
-- BUSINESS UNLIMITED CREDIT CARD DETAIL PRODUCT:
-    - GET REWARDS with Monthly Minimum Purchases 3500 dollars
-    - CREDIT_LIMIT: 30000
+- **BUSINESS UNLIMITED CREDIT CARD** DETAIL PRODUCT:
+    - GET REWARDS with Monthly **Minimum Purchases 3500 dollars**
+    - **CREDIT_LIMIT: 30000 dollars**
     
 We Suggest:
-- Offer LOW CUSTOMERS SEGMENT with PERFORMANCE CREDIT CARD
-- Offer MEDIUM CUSTOMERS SEGMENT with BUSINESS CASH CREDIT CARD
-- Offer HIGH CUSTOMERS SEGMENT with BUSINESS UNLIMITED CREDIT CARD
+- Offer **LOW CUSTOMERS SEGMENT** with **PERFORMANCE CREDIT CARD**
+- Offer **MEDIUM CUSTOMERS SEGMENT** with **BUSINESS CASH CREDIT CARD**
+- Offer **HIGH CUSTOMERS SEGMENT** with **BUSINESS UNLIMITED CREDIT CARD**
 
 ## BUSINESS IMPACT
 
-From our [research](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/), current credit card churn is about 25%.
-With the help of our Clustering and Multiclass Machine Learning Modeling, we simulate that credit card churn will drop into 7%.
+From our [research](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/), current **credit card churn is about 25%**.
+With the help of our Clustering and Multiclass Machine Learning Modeling, we simulate that credit card churn **will drop into 7%**.
 
 Assuming number of customers and lost per customers as down below:
 
