@@ -214,6 +214,9 @@ We Suggest:
 - Offer HIGH CUSTOMERS SEGMENT with BUSINESS UNLIMITED CREDIT CARD
 
 ## BUSINESS IMPACT
+
+From our [research](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/)
+
 ![image](https://user-images.githubusercontent.com/78836373/120474772-cc1e0500-c3d2-11eb-9aec-b115f0cb2cd8.png)
 ![image](https://user-images.githubusercontent.com/78836373/120474804-d6400380-c3d2-11eb-83de-177e78c84353.png)
 
