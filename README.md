@@ -9,6 +9,8 @@ Team Members:
 ## BACKGROUND
 
 Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customers stays around for a while. It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if the customers keeps the card**. If customers **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate them**.
+
+In this project, we position ourselves as a part 
  
 Source: https://www.dbmarketing.com/articles/Art175.htm
 
