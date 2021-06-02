@@ -7,6 +7,7 @@ Team Members:
 # CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
 
 ## BACKGROUND
+
 Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customers stays around for a while. It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if the customers keeps the card**. If customers **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate them**.
  
 Source: https://www.dbmarketing.com/articles/Art175.htm
@@ -26,14 +27,14 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 - In other hand, the company doesn't know which customers belongs to which products
 
 ## 2. GOALS SETTINGS
-- Understanding Customers Type and Customer Behaviour through Customer Data Clustering
+- Understanding **Customers Type** and **Customer Behaviour** through **Customer Data Clustering**
 - Define product details based on clustering results to ensure that customers get the proper product
-- Help Marketing Team to define new Customers type through Machine Learning Modelling 
+- Help Marketing Team to define new Customers Type through Machine Learning Modelling 
 
 ## 3. DATA EXTRACTION, DATA LOAD, AND DATA UNDERSTANDING
 
 - Our data set is taken from Kaggle: https://www.kaggle.com/arjunbhasin2013/ccdata
-- Below is the small part of our dataset which consist of 18 Features and 8950 data
+- Below is the small part of our dataset which consists of 18 Features and 8950 data
 
 CUST_ID | BALANCE | BALANCE_FREQUENCY | PURCHASES | ONEOFF_PURCHASES | INSTALLMENTS_PURCHASES | CASH_ADVANCE | PURCHASES_FREQUENCY | ONEOFF_PURCHASES_FREQUENCY | PURCHASES_INSTALLMENTS_FREQUENCY | CASH_ADVANCE_FREQUENCY | CASH_ADVANCE_TRX | PURCHASES_TRX | CREDIT_LIMIT | PAYMENTS | MINIMUM_PAYMENTS | PRC_FULL_PAYMENT | TENURE
 -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
@@ -43,7 +44,7 @@ C10003 | 2495.148862 | 1 | 773.17 | 773.17 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 12 | 75
 C10004 | 1666.670542 | 0.636364 | 1499 | 1499 | 0 | 205.788017 | 0.083333 | 0.083333 | 0 | 0.083333 | 1 | 1 | 7500 | 0 |  | 0 | 12
 C10005 | 817.714335 | 1 | 16 | 16 | 0 | 0 | 0.083333 | 0.083333 | 0 | 0 | 0 | 1 | 1200 | 678.334763 | 244.791237 | 0 | 12
 
-- Below is the definition of each features
+Below is the definition of each features:
 - `CUST_ID` - Identification of Credit Card Holder
 - `BALANCE` - Balance amount left in their account to make purchases
 - `BALANCE_FREQUENCY` - How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
