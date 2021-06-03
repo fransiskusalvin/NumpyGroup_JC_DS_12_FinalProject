@@ -18,10 +18,8 @@ In this project, we position ourselves as a part
 ![image](https://user-images.githubusercontent.com/78836373/120300137-d9b18d00-c2f5-11eb-9f5c-56fe6224274f.png)
 
 ## 1. BUSINESS PROBLEMS
-- **Customer loyalty** is one of the **key** to survive in this credit card business competition
-    - [Source](https://www.dbmarketing.com/articles/Art175.htm)
-- The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones**
-    - [Source](https://www.fpsc.com/the_cost_of_customer_churn.pdf)
+- **Customer loyalty** is one of the **key** to survive in this credit card business competition [Source](https://www.dbmarketing.com/articles/Art175.htm)
+- The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones** [Source](https://www.fpsc.com/the_cost_of_customer_churn.pdf)
 - In order to retain customers, we must first understanding our **Customers Type and Customers Behaviour**
 - Previously, our bank **only has 1 product of credit card**, resulting **low customer loyalty** because **inaccurate marketing program**
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
@@ -184,16 +182,17 @@ Below we provided table to **Compare Accuracy Score** based on our choosen algor
 
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
 
-- **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix.
+- **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix through Hyper Parameter Tuning.
 
-
+**HYPER PARAMETER TUNING**:
+- Best Param:
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are **no overfit result** on all over model algorithm
 - We **suggest** to use **Random Forest Tuned 2**, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
 - How this model will help bank company?
     - This model will allow bank marketing team to take actions on identified as "customer segment", furthermore the development of these model should contribute to bank revenue management.
-    - These prediction models enable marekting teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
+    - These prediction models enable marketing teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
 
 **MACHINE LEARNING RECOMMENDATION**:
 - This Machine Learning could be used for **customer segmentation based on their credit card usage behaviour**.
@@ -228,11 +227,11 @@ Assuming number of customers and lost per customers as down below:
 
 ![image](https://user-images.githubusercontent.com/78836373/120530327-96dfda00-c407-11eb-9c26-c6d8b7a32664.png)
 
-Attached below is rough calculation Lost Customer Cost Without Machine Learning vs Lost Customer Cost with Machine Learning
+Attached below is **rough calculation** Lost Customer Cost Without Machine Learning vs Lost Customer Cost with Machine Learning
 
 ![image](https://user-images.githubusercontent.com/78836373/120474772-cc1e0500-c3d2-11eb-9aec-b115f0cb2cd8.png)
 
-Using our Multiclass Machine Learning Modelling, our company could save money arround **14,400,000 dollars!!**
+Using our Multiclass Machine Learning Modelling, our company **could save money** around **14,400,000 dollars!!**
 
 ![image](https://user-images.githubusercontent.com/78836373/120474804-d6400380-c3d2-11eb-83de-177e78c84353.png)
 
