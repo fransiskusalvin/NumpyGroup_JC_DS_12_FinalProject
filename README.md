@@ -171,7 +171,7 @@ With **SEGMENT Composition** down below:
 
 We **focus** to obtain Machine Learning Model with the best **Accuracy Score**
 
-Features Selection:
+**Features Selection:**
 - For this model we will use all features, because from EDA all features has affect to Credit Card Default
 
 For Machine Learning modelling we utilize all data features and utilize 3 different algorithm:
