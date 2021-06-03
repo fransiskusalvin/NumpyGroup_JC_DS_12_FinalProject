@@ -63,7 +63,7 @@ Below is the definition of each features:
 - `TENURE` - Tenure of credit card service for user
 
 ## 4. DATA CLEANING
-- From our dataset, we got several missing value which most of them are MINIMUM_PAYMENTS
+- From our dataset, we got several missing value which most of them are **MINIMUM_PAYMENTS**
 
 ![image](https://user-images.githubusercontent.com/78836373/120305580-1f248900-c2fb-11eb-9dfe-8a22e64e4605.png)
 
@@ -166,6 +166,7 @@ Since our dataset have 3 SEGMENT/**Multiclass** where:
 - **SEGMENT 2**: HIGH CUSTOMERS 
   
 With **SEGMENT Composition** down below:
+
 ![image](https://user-images.githubusercontent.com/78836373/120308724-9ad40500-c2fe-11eb-9dae-a923c2e2c64b.png)
 
 We **focus** to obtain Machine Learning Model with the best **Accuracy Score**
