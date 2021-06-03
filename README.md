@@ -4,16 +4,14 @@ Team Members:
 - **Fransiskus Alvin Andriyanto** (fransiskusalvin@yahoo.com)
 - **Panji Agdiwijaya** (agdiwijaya@gmail.com)
 
-# CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
+# CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MULTICLASS MACHINE LEARNING MODELLING
 
 ## BACKGROUND
 Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customers stays around for a while. It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if the customers keeps the card**. If customers **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate them**.
 
-In this project, we position ourselves as a part 
- 
 [Source](https://www.dbmarketing.com/articles/Art175.htm)
 
-## PROCESS WORKFLOWS
+## WORKFLOW PROCESS 
 
 ![image](https://user-images.githubusercontent.com/78836373/120300137-d9b18d00-c2f5-11eb-9f5c-56fe6224274f.png)
 
@@ -72,8 +70,8 @@ Below is the definition of each features:
 - Missing Value on **MINIMUM_PAYMENTS** is filled with same value of PAYMENTS because the customers have PAYMENTS data recorded 
 - Missing Value on **CREDIT_LIMIT** is dropped because there is only 1 CREDIT_LIMIT data that has null value
 
-#### OUTLIERS HANDLING
-- There are outliers on this dataset and these outliers **will not be removed** since it **might be useful**
+#### REMOVE UNECESSARY COLUMNS:
+- Since **CUST_ID** has object and has **no relation for analysis**, we will **drop CUST_ID**
 
 ## 5. DATA CLUSTERING
 Based on **problems** and added by **research results**, we **utilize 3 features** that might be the factors for **customer segmentation**:
@@ -87,8 +85,10 @@ Source :
 
 For clustering we use **three algorithm**: 
 1. **KMeans**
-2. **AHC**
-3. **Gaussian Mixture**
+2. **AHC** 
+3. **Gaussian Mixture**  
+
+[for further details please refer to Clustering Notebook](https://) 
 
 Below is our **Silhouette Score** comparison for each algorithm and each number segment:
 
@@ -116,7 +116,7 @@ From Insight Above we can conclude:
 ## 6. EXPLORATORY DATA ANALYSIS
 
 For EDA we do the following steps below:
-- Binning
+- **Binning**
 - Aggregating Columns
 - Visualization
 - Insight & Conclusion
@@ -173,28 +173,27 @@ With **SEGMENT Composition** down below:
 
 ![image](https://user-images.githubusercontent.com/78836373/120308724-9ad40500-c2fe-11eb-9dae-a923c2e2c64b.png)
 
-We **focus** to obtain Machine Learning Model with the best **Accuracy Score**
+We will **focus** to obtain Machine Learning Model with the best **Accuracy Score**
 
 **Features Selection:**
-- For this model we will use all features, because from EDA all features has affect to Credit Card Default
+- For this model we will use all features, because from EDA results, the customer segmentation is affected by all features from dataset
 
 For Machine Learning modelling we utilize all data features and utilize 3 different algorithm:
 1. **Random Forest**
-2. **Logistic Regression**
-3. **KNN Classifier**
+3. **Logistic Regression**
+4. **KNN Classifier**
 
 Below we provided table to **Compare Accuracy Score** based on our choosen algorithm
 
-![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
+![image](https://user-images.githubusercontent.com/78836373/120584921-0501bc80-c45b-11eb-93bc-abeeb097c4df.png)
 
 - **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix through Hyper Parameter Tuning.
 
-**HYPER PARAMETER TUNING**:
-- Best Param:
+[For Further details please refer Machine Learning Notebook](https://)
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are **no overfit result** on all over model algorithm
-- We **suggest** to use **Random Forest Tuned 2**, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
+- We **suggest** to use **Random Forest Tuned**, because after analysis it has the best accuracy score 93% (not so high) with the most suitable confusion matrix 
 - How this model will help bank company?
     - This model will allow bank marketing team to take actions on identified as "customer segment", furthermore the development of these model should contribute to bank revenue management.
     - These prediction models enable marketing teams to mitigate profit loss derived from customer churn caused by unsuitable marketing program
