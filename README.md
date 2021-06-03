@@ -11,7 +11,7 @@ Almost every American, it seems, gets a new credit card offer in the mail almost
 
 In this project, we position ourselves as a part 
  
-Source: https://www.dbmarketing.com/articles/Art175.htm
+[Source](https://www.dbmarketing.com/articles/Art175.htm)
 
 ## PROCESS WORKFLOWS
 
@@ -19,9 +19,9 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 
 ## 1. BUSINESS PROBLEMS
 - **Customer loyalty** is one of the **key** to survive in this credit card business competition
-    - Source: https://www.dbmarketing.com/articles/Art175.htm
+    - [Source](https://www.dbmarketing.com/articles/Art175.htm)
 - The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones**
-    - Source : https://www.fpsc.com/the_cost_of_customer_churn.pdf
+    - [Source](https://www.fpsc.com/the_cost_of_customer_churn.pdf)
 - In order to retain customers, we must first understanding our **Customers Type and Customers Behaviour**
 - Previously, our bank **only has 1 product of credit card**, resulting **low customer loyalty** because **inaccurate marketing program**
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
@@ -75,16 +75,20 @@ Below is the definition of each features:
 
 ## 5. DATA CLUSTERING
 Based on **problems** and added by **research results**, we **utilize 3 features** that might be the factors for **customer segmentation**:
-- **BALANCE
-- PURCHASES
-- CREDIT_LIMIT
+- **BALANCE**
+- **PURCHASES**
+- **CREDIT_LIMIT**
 
 Source :
-- https://creditcards.chase.com/
-- https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/Financial%20Services/Latest%20thinking/Payments/MoP19_New%20frontiers%20in%20credit%20card%20segmentation.ashx 
+- [Research 1](https://creditcards.chase.com/)
+- [Research 2](https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/Financial%20Services/Latest%20thinking/Payments/MoP19_New%20frontiers%20in%20credit%20card%20segmentation.ashx)
 
-- For clustering we use three algorithm (KMeans, AHC, and Gaussian Mixture)
-- Below is our **Silhouette Score** comparison for each algorithm and each number segment:
+For clustering we use **three algorithm**: 
+1. **KMeans**
+2. **AHC**
+3. **Gaussian Mixture**
+
+Below is our **Silhouette Score** comparison for each algorithm and each number segment:
 
 ![image](https://user-images.githubusercontent.com/78836373/120307310-07e69b00-c2fd-11eb-93fd-353f5520b6a4.png)
 
@@ -92,7 +96,7 @@ Source :
 - Nevertheless, we choose to use **3 clustering** due to **Business Demand and Simulation**.
 - Within 3 clustering, AHC method has better Silhouette Score (0.52) compared to KMeans (0.48). However, we choose **KMeans** method because has **better seperation of grouping** 
 
-Below is our **Clustering Visualization** Result using K-Means:
+Below is our **Clustering Visualization** Result using KMeans Algorithm: 
 
 ![image](https://user-images.githubusercontent.com/78836373/120307620-6449ba80-c2fd-11eb-988c-320f4e0d3370.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
@@ -101,12 +105,11 @@ Below is our **Clustering Visualization** Result using K-Means:
 ![](VID-20210602-WA0000_1_1_3.gif)
 
 From Insight Above we can conclude:
-* **SEGMENT 0 : LOW CUSTOMERS** This customer group indicates a large group of customers who have LOW BALANCES, small spenders (LOW PURCHASES) with the LOWEST CREDIT LIMIT. 
+* **SEGMENT 0 : LOW CUSTOMERS** This customer group indicates a large group of customers who have **LOW BALANCES**, **small spenders (LOW PURCHASES**) with the **LOWEST CREDIT LIMIT**. 
 
-* **SEGMENT 1 : MEDIUM CUSTOMERS** This customer group indicates a small group of customers who have LOW-MEDIUM BALANCES, intermediate spenders (LOW-MEDIUM PURCHASES) with intermediate CREDIT LIMIT.
+* **SEGMENT 1 : MEDIUM CUSTOMERS** This customer group indicates a small group of customers who have **LOW-MEDIUM BALANCES**, **intermediate spenders (LOW-MEDIUM PURCHASES)** with **intermediate CREDIT LIMIT**.
 
-* **SEGMENT 2 : HIGH CUSTOMERS** This customer group indicates a small group of customers who have LOW-HIGH BALANCES, high spenders (LOW-HIGH PURCHASES) with HIGH CREDIT LIMIT.
-
+* **SEGMENT 2 : HIGH CUSTOMERS** This customer group indicates a small group of customers who have **LOW-HIGH BALANCES**, **high spenders (LOW-HIGH PURCHASES)** with **HIGH CREDIT LIMIT**.
 
 ## 6. EXPLORATORY DATA ANALYSIS
 
@@ -155,7 +158,7 @@ For EDA we do the following steps below:
 - Customer SEGMENTATION influenced by many Features
 
 **EDA RECOMMENDATION:**
-- Based on our analysis, we recommend to use all features for Machine Learning
+- Based on our analysis, we recommend to use **all features for Machine Learning**
 
 ## 7. MACHINE LEARNING MODELLING
 
@@ -169,9 +172,10 @@ With **SEGMENT Composition** down below:
 
 We **focus** to obtain Machine Learning Model with the best **Accuracy Score**
 
+Features Selection:
 - For this model we will use all features, because from EDA all features has affect to Credit Card Default
 
-For Machine Learning modelling we utilize all data features and utilize 3 different algorithm
+For Machine Learning modelling we utilize all data features and utilize 3 different algorithm:
 1. **Random Forest**
 2. **Logistic Regression**
 3. **KNN Classifier**
@@ -180,7 +184,9 @@ Below we provided table to **Compare Accuracy Score** based on our choosen algor
 
 ![image](https://user-images.githubusercontent.com/78836373/120309110-0a49f480-c2ff-11eb-9e51-9da253a52101.png)
 
-- **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix
+- **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix.
+
+
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are **no overfit result** on all over model algorithm
