@@ -18,8 +18,8 @@ In this project, we position ourselves as a part
 ![image](https://user-images.githubusercontent.com/78836373/120300137-d9b18d00-c2f5-11eb-9f5c-56fe6224274f.png)
 
 ## 1. BUSINESS PROBLEMS
-- **Customer loyalty** is one of the **key** to survive in this credit card business competition [Source](https://www.dbmarketing.com/articles/Art175.htm)
-- The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones** [Source](https://www.fpsc.com/the_cost_of_customer_churn.pdf)
+- **Customer loyalty** is one of the **key** to survive in this credit card business competition [(source)](https://www.dbmarketing.com/articles/Art175.htm)
+- The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones** [(source)](https://www.fpsc.com/the_cost_of_customer_churn.pdf)
 - In order to retain customers, we must first understanding our **Customers Type and Customers Behaviour**
 - Previously, our bank **only has 1 product of credit card**, resulting **low customer loyalty** because **inaccurate marketing program**
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
