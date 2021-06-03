@@ -63,6 +63,7 @@ Below is the definition of each features:
 - `TENURE` - Tenure of credit card service for user
 
 ## 4. DATA CLEANING
+#### MISSING VALUE HANDLING
 - From our dataset, we got several missing value which most of them are **MINIMUM_PAYMENTS**
 
 ![image](https://user-images.githubusercontent.com/78836373/120305580-1f248900-c2fb-11eb-9dfe-8a22e64e4605.png)
@@ -70,6 +71,9 @@ Below is the definition of each features:
 - Missing Value on **MINIMUM_PAYMENTS** is filled with 0 assuming the customers haven't made any PAYMENTS (PAYMENTS = 0)
 - Missing Value on **MINIMUM_PAYMENTS** is filled with same value of PAYMENTS because the customers have PAYMENTS data recorded 
 - Missing Value on **CREDIT_LIMIT** is dropped because there is only 1 CREDIT_LIMIT data that has null value
+
+#### OUTLIERS HANDLING
+- There are outliers on this dataset and these outliers **will not be removed** since it **might be useful**
 
 ## 5. DATA CLUSTERING
 Based on **problems** and added by **research results**, we **utilize 3 features** that might be the factors for **customer segmentation**:
