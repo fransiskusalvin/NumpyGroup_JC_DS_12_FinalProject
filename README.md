@@ -7,7 +7,6 @@ Team Members:
 # CREDIT CARD CUSTOMER CLUSTERING OPTIMIZED WITH MACHINE LEARNING
 
 ## BACKGROUND
-
 Almost every American, it seems, gets a new credit card offer in the mail almost every week. Credit cards are highly profitable, but only if the customers stays around for a while. It **costs about 80 dollars** to **acquire a new credit card customer** who **returns about 120 dollars per year** in profit, but **only if the customers keeps the card**. If customers **drops the card after a few weeks, or doesn’t use the card**, the issuer will **lose that 80 dollars, plus some more money spent trying to reactivate them**.
 
 In this project, we position ourselves as a part 
@@ -24,9 +23,9 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 - The **cost of acquiring new customers** is estimated at **five times** the rate of **retaining existing ones**
     - Source : https://www.fpsc.com/the_cost_of_customer_churn.pdf
 - In order to retain customers, we must first understanding our **Customers Type and Customers Behaviour**
-- Previously, our bank only has 1 product of credit card, resulting low customer loyalty because inaccurate marketing program
+- Previously, our bank **only has 1 product of credit card**, resulting **low customer loyalty** because **inaccurate marketing program**
 - After do long research, our management decides to make 3 different products: **Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)**
-- In other hand, the company doesn't know which customers belongs to which products
+- In other hand, the company **doesn't know which customers belongs to which products**
 
 ## 2. GOALS SETTINGS
 - Understanding **Customers Type** and **Customer Behaviour** through **Customer Data Clustering**
@@ -34,8 +33,7 @@ Source: https://www.dbmarketing.com/articles/Art175.htm
 - **Help Marketing Team** to define new Customers Type through **Multiclass Clasification Machine Learning Technique**
 
 ## 3. DATA EXTRACTION, DATA LOAD, AND DATA UNDERSTANDING
-
-- Our data set is taken from Kaggle: https://www.kaggle.com/arjunbhasin2013/ccdata
+- Our data set is taken from [Kaggle](https://www.kaggle.com/arjunbhasin2013/ccdata)
 - Below is the small part of our dataset which consists of **18 Features** and **8950 data**
 
 CUST_ID | BALANCE | BALANCE_FREQUENCY | PURCHASES | ONEOFF_PURCHASES | INSTALLMENTS_PURCHASES | CASH_ADVANCE | PURCHASES_FREQUENCY | ONEOFF_PURCHASES_FREQUENCY | PURCHASES_INSTALLMENTS_FREQUENCY | CASH_ADVANCE_FREQUENCY | CASH_ADVANCE_TRX | PURCHASES_TRX | CREDIT_LIMIT | PAYMENTS | MINIMUM_PAYMENTS | PRC_FULL_PAYMENT | TENURE
@@ -76,8 +74,8 @@ Below is the definition of each features:
 - Missing Value on **CREDIT_LIMIT** is dropped because there is only 1 CREDIT_LIMIT data that has null value
 
 ## 5. DATA CLUSTERING
-Based on Problems and added by research results, we utilize 3 features that might be the factors for customer segmentation:
-- BALANCE
+Based on **problems** and added by **research results**, we **utilize 3 features** that might be the factors for **customer segmentation**:
+- **BALANCE
 - PURCHASES
 - CREDIT_LIMIT
 
