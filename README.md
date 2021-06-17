@@ -88,7 +88,7 @@ For clustering we use **three algorithm**:
 2. **AHC** 
 3. **Gaussian Mixture**  
 
-[for further details please refer to Clustering Notebook](https://) 
+[For further details please refer to Clustering Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/1_Clustering_CreditCardCustomerSegmentation.ipynb) 
 
 Below is our **Silhouette Score** comparison for each algorithm and each number segment:
 
@@ -104,7 +104,7 @@ Below is our **Clustering Visualization** Result using KMeans Algorithm:
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307667-73c90380-c2fd-11eb-866a-3a744e126aa7.png)
 
-![](VID-20210602-WA0000_1_1_3.gif)
+![](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/Media/VID-20210602-WA0000_1_1_3.gif)
 
 From Insight Above we can conclude:
 * **SEGMENT 0 : LOW CUSTOMERS** This customer group indicates a large group of customers who have **LOW BALANCES**, **small spenders (LOW PURCHASES**) with the **LOWEST CREDIT LIMIT**. 
@@ -117,9 +117,9 @@ From Insight Above we can conclude:
 
 For EDA we do the following steps below:
 - **Binning**
-- Aggregating Columns
-- Visualization
-- Insight & Conclusion
+- **Aggregating Columns**
+- **Visualization**
+- **Insight & Conclusion**
 
 **BUSINESS QUESTIONS** 
 - What features which have impact to SEGMENT?
@@ -159,6 +159,8 @@ For EDA we do the following steps below:
 
 - Customer SEGMENTATION influenced by many Features
 
+[For Further details please refer EDA Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/2_EDA_CreditCardCustomerSegmentation.ipynb)
+
 **EDA RECOMMENDATION:**
 - Based on our analysis, we recommend to use **all features for Machine Learning**
 
@@ -189,7 +191,7 @@ Below we provided table to **Compare Accuracy Score** based on our choosen algor
 
 - **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix through Hyper Parameter Tuning.
 
-[For Further details please refer Machine Learning Notebook](https://)
+[For Further details please refer Machine Learning Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/3_ML_CreditCardCustomerSegmentation.ipynb)
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are **no overfit result** on all over model algorithm
