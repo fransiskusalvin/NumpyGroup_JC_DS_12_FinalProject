@@ -88,7 +88,7 @@ For clustering we use **three algorithm**:
 2. **AHC** 
 3. **Gaussian Mixture**  
 
-[For further details please refer to Clustering Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/1_Clustering_CreditCardCustomerSegmentation.ipynb) 
+[For further details please refer to Clustering Notebook](https://github.com/fransiskusalvin/NumpyGroup_JC_DS_12_FinalProject/blob/main/1_Clustering_CreditCardCustomerSegmentation.ipynb) 
 
 Below is our **Silhouette Score** comparison for each algorithm and each number segment:
 
@@ -159,7 +159,7 @@ For EDA we do the following steps below:
 
 - Customer SEGMENTATION influenced by many Features
 
-[For Further details please refer EDA Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/2_EDA_CreditCardCustomerSegmentation.ipynb)
+[For Further details please refer EDA Notebook](https://github.com/fransiskusalvin/NumpyGroup_JC_DS_12_FinalProject/blob/main/2_EDA_CreditCardCustomerSegmentation.ipynb)
 
 **EDA RECOMMENDATION:**
 - Based on our analysis, we recommend to use **all features for Machine Learning**
@@ -191,7 +191,7 @@ Below we provided table to **Compare Accuracy Score** based on our choosen algor
 
 - **Random Forest** result accuracy is already **good**, in other hand, this model is categorized as **Strong Learner** model which causing the model might be only memorizing the data, and not learning the pattern. So we want to decrease accuracy score to get a **Good Learner** and get more suitable confusion matrix through Hyper Parameter Tuning.
 
-[For Further details please refer Machine Learning Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/3_ML_CreditCardCustomerSegmentation.ipynb)
+[For Further details please refer Machine Learning Notebook](https://github.com/fransiskusalvin/NumpyGroup_JC_DS_12_FinalProject/blob/main/3_ML_CreditCardCustomerSegmentation.ipynb)
 
 **MACHINE LEARNING SUMMARY**:
 - From the initial machine learning modelling, there are **no overfit result** on all over model algorithm
@@ -272,4 +272,4 @@ Using our Multiclass Machine Learning Modelling, our company **could save money*
 
 ![image](https://user-images.githubusercontent.com/78836373/122418752-a2f59b00-cfb4-11eb-9c68-97b3aa935803.png)
 
-[For Further details please refer Dashboard File](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/tree/main/Dashboard)
+[For Further details please refer Dashboard File](https://github.com/fransiskusalvin/NumpyGroup_JC_DS_12_FinalProject/tree/main/Dashboard)
